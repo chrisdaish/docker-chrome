@@ -30,7 +30,6 @@ RUN useradd -m google-chrome; \
     rm -f /src/google-chrome-stable_current_amd64.deb; \
     rm -rf /var/lib/apt/lists/*
 
-COPY local.conf /etc/fonts/local.conf
 COPY start-google-chrome.sh /tmp/
 
 ENTRYPOINT ["/tmp/start-google-chrome.sh"]
