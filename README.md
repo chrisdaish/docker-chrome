@@ -1,6 +1,6 @@
 # Google Chrome
 
-Unofficial build of Google Chrome 46 running within a docker container and
+Unofficial build of Google Chrome 47 running within a docker container and
 rendered by the local X Server.
 
 ## Changelog
